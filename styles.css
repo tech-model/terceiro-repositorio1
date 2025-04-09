@@ -1,73 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-     --cor-principal: #5fd3d7;
-     --cor1:  #007e83;
-     --cor2:  #00575c;
-     --cor3:  #003237;
-     --preto: #000000;
-     --branco: #ffffff;
+    --cor-principal: #262597;
+    --cor1: #6c6091;
+    --cor2: #f7ebff;
+    --cor3: #68baa6;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --laranja-claro: #FF862A;
 }
 
 body {
-font-size: 1rem;
-font-family: 'Poppins';
+    font-size: 1rem;
+    font-family: 'Montserrat'; /*o nome da sua fonte*/
 }
 
-ction {
-     padding-bottom: 5rem;
- }
- 
- .display-4 {
-     text-shadow: -5px 5px var(--laranja-claro);
- }
- 
- #tropicalia {
-     position: relative;
-     padding-top: 5rem;
-     margin-top: 3rem;
-     background: var(--cor2);
-     background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
- }
- 
- #tropicalia .container {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-     z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
- }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- #contato {
-     background: var(--cor-principal);
-     background-size: cover;
-     padding: 4rem 0;
- }
- 
- .formulario{
-     background-color: var(--branco);
-     padding: 2rem;
-     border-radius: 10px;
-     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-     font-weight: bold;
- }
- 
- .formulario button {
-     background-color: var(--cor3);
-     border: none;
-     font-weight: bold;
- }
- 
- .form-control {
-     background-color: var(--cor2);
- }
+section {
+    padding-bottom: 5rem;
+}
+
+header {
+    background-color: var(--preto);
+}
+
+.nav-link {
+    color: var(--turquesa);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url(img/4965007.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.botao-inicio {
+    background-color: var(--turquesa);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+}
+
+
+.display-4 {
+    text-shadow: -5px 5px var(--turquesa);
+}
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--cor2);
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
+}
+
+
+
+
+
+
+
+
+
+
+
+#contato {
+    background: var(--cor-principal);
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario{
+    background-color: var(--preto);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: var(--cor3);
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: var(--cor2);
+}
