@@ -20,11 +20,15 @@ section {
 }
 
 header {
-    background-color: var(--preto);
+    background-color: var(--branco);
+}
+
+.nav-imagem {
+    
 }
 
 .nav-link {
-    color: var(--turquesa);
+    color: var(--laranja-claro);
     font-weight: 600;
 }
 
@@ -47,7 +51,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--turquesa);
+    background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -57,7 +61,7 @@ header {
 
 
 .display-4 {
-    text-shadow: -5px 5px var(--turquesa);
+    text-shadow: -5px 5px var(--laranja-claro);
 }
 
 #tropicalia {
@@ -93,7 +97,7 @@ header {
 }
 
 .formulario{
-    background-color: var(--preto);
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
