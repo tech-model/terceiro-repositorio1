@@ -64,7 +64,7 @@ header {
     text-shadow: -5px 5px var(--laranja-claro);
 }
 
-#tropicalia {
+#celestial {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
@@ -72,7 +72,7 @@ header {
     background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
-#tropicalia .container {
+#celestial .container {
     display: flex;
     align-items: center;
     justify-content: center;
