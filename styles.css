@@ -33,7 +33,7 @@ header {
 }
 
 .inicio-fundo {
-    background-image: url(img/boasvindas.webp);
+    background-image: url(imagens/boasvindas.webp);
     background-size: cover;
     background-position: right;
     border-radius: 80px;
